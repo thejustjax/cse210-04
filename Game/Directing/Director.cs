@@ -101,7 +101,7 @@ namespace unit04_greed.Game.Directing
                     Point position = new Point(x, y);
                     position = position.Scale(15);
 
-                    artifact.SetPosition(new Point(x, y));
+                    artifact.SetPosition(position);
                 }
             } 
         }
